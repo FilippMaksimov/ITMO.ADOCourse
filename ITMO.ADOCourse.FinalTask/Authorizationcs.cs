@@ -31,6 +31,8 @@ namespace ITMO.ADOCourse.FinalTask
             PasswordTextBox.AutoCompleteCustomSource = passwordSource;
             PasswordTextBox.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
             PasswordTextBox.AutoCompleteSource = AutoCompleteSource.CustomSource;
+            UserIdTextBox.Text = "ItmoPractice";
+            PasswordTextBox.Text = "123456789";
         }
         
         public string UserId
